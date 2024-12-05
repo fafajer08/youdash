@@ -5,9 +5,9 @@ import MuiDrawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
-// import IconButton from '@mui/material/IconButton';
-// import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
-// import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import IconButton from '@mui/material/IconButton';
+import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
@@ -85,12 +85,13 @@ export default function Sidenav() {
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
       <Drawer variant="permanent" open={open}>
-        {/* <DrawerHeader>
+        <DrawerHeader>
           <IconButton onClick={()=>open(!open)}>
             {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
           </IconButton>
-        </DrawerHeader> */}
+        </DrawerHeader>
         <Divider />
+
         <List>
         <ListItem  disablePadding sx={{ display: 'block' }} onClick={()=>(navigate("/"))}>
               <ListItemButton
@@ -139,9 +140,6 @@ export default function Sidenav() {
                 />
               </ListItemButton>
             </ListItem>
-        </List>
-
-        <List>
         <ListItem  disablePadding sx={{ display: 'block' }} onClick={()=>(navigate("/about"))}>
               <ListItemButton
                 sx={[
