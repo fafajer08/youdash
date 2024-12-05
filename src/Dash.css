@@ -1,10 +1,10 @@
-.paddingall{
+#paddingall{
   padding: 10px 10px 10px 10px;
 }
-.pricetitle{
+#pricetitle{
   font-weight: 600;
 }
-.pricesubtitle{
+#pricesubtitle{
   font-size: 14px;
 }
 .iconstyle {

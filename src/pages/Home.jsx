@@ -56,27 +56,27 @@ export default function Home() {
         </Grid>
           <Grid item xs={4}>
             <Stack spacing={2}>
-              <Card sx={{ maxWidth: 345 }} className="gradientlight">     
+              <Card id='gradientlight'>     
                 <Stack spacing={2} direction="row">
                     <div className="iconstyle">
                       <StorefrontIcon />
                     </div>
-                    <div className='paddingall'>
-                      <span className='pricetitle'>$203k</span>
+                    <div id='paddingall'>
+                      <span id='pricetitle'>$203k</span>
                       <br />
-                      <span className='pricesubtitle'>Total Income</span>
+                      <span id='pricesubtitle'>Total Income</span>
                     </div>
                   </Stack>
               </Card>
-              <Card sx={{ maxWidth: 345 }}>
+              <Card id=''>
                 <Stack spacing={2} direction="row">
                     <div className="iconstyleblack">
                       <StorefrontIcon />
                     </div>
-                    <div className='paddingall'>
-                      <span className='pricetitle'>$203k</span>
+                    <div id='paddingall'>
+                      <span id='pricetitle'>$203k</span>
                       <br />
-                      <span className='pricesubtitle'>Total Income</span>
+                      <span id='pricesubtitle'>Total Income</span>
                     </div>
                   </Stack>
               </Card>
