@@ -17,7 +17,7 @@ import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 export default function Home() {
   return (
     <>
-    <div className="bgcolor">
+    <div id="bgcolor">
     <Navbar />
       <Box height={70} />
         <Box sx={{ display: 'flex' }}>
@@ -26,7 +26,7 @@ export default function Home() {
           <Grid container spacing={2}>
         <Grid item xs={8}>
         <Stack spacing={2} direction="row">
-        <Card sx={{ minWidth: 49 + "%", height: 150 }} className="gradient">
+        <Card sx={{ minWidth: 49 + "%", height: 150 }} id="gradient">
           <CardContent>
             <div className="iconstyle">
               <CreditCardIcon />
@@ -39,7 +39,7 @@ export default function Home() {
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ minWidth: 49 + "%", height: 150}} className="gradientlight">
+        <Card sx={{ minWidth: 49 + "%", height: 150}} id="gradientlight">
           <CardContent>
               <div className="iconstyle">
                 <ShoppingBagIcon />
