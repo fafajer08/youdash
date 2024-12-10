@@ -182,7 +182,7 @@ export default function Navbar() {
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
           >
-            Dashboard
+            Jercode
           </Typography>
           <Search>
             <SearchIconWrapper>

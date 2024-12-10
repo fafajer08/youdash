@@ -174,7 +174,7 @@ export default function Sidenav() {
                 <InboxIcon />                 
                 </ListItemIcon>
                 <ListItemText
-                  primary="About"
+                  primary="Dashboard"
                   sx={[
                     open
                       ? {

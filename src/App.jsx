@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './pages/Home'
 import Settings from './pages/Settings'
-import About from './pages/About'
+import About from './pages/Dashboard'
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 
 const App = () => {
